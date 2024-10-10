@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded',()=>{
         addTask();
       }
     })
+  addButton.addEventListener('click', ()=>{
+     addTask();
+  })
     
   }
   
