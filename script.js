@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       taskElement.appendChild('removeBtn');
     }
 
-    addButton.addEventListener('click',(event)=>{
+   taskInput.addEventListener('keypress',(event)=>{
       if (event.key === 'Enter') {
         addTask();
       }
